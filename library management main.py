@@ -19,7 +19,7 @@ class Library:
 
     def returnBook(self, bookName):
         self.books.append(bookName)
-        print(f"Thanks for returning the book {bookName}. Hope you enjoyed it!!")
+        print(f"Thanks for adding/returning the book {bookName}. Hope you enjoyed it!!")
 
 
 
@@ -29,7 +29,7 @@ class Student:
         return self.book.title()
 
     def returnBook(self):
-            self.book = input("Enter the name of the book you want to return: ")
+            self.book = input("Enter the name of the book you want to add/return: ")
             return self.book.title()
 
 
